@@ -106,4 +106,6 @@ adb shell setprop wrap.com.google.android.googlequicksearchbox '"LIBC_DEBUG_MALL
 adb shell am force-stop com.google.android.googlequicksearchbox
 ```
 
-####framework 内存泄漏
+####app/framework 内存泄漏
+用memory monitor查看多次加载app，该app使用的内存是否有增加。
+
